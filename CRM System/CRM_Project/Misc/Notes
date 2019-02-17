@@ -1,0 +1,13 @@
+link to PHPmyAdmin
+https://marc-php-private-marchickey.c9users.io/phpmyadmin/
+username: marchickey
+password: secret
+
+****Contact Page******
+Keeping this seperate from create customer
+- Customer is created once
+- contacts will need to be added, deleted over time
+
+****Using the URL to pass the customer ID from customer_manage as I dont see any other way to
+get the ID from a record in a table. Not passing the customer name using session as I think if 
+someone were to change the id=2 number in the URL the customer name would not update.

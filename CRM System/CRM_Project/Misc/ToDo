@@ -1,0 +1,8 @@
+- When I edit a customer I dont get the drop down for county
+- Wire up the job section
+- All output is sanitized
+- contact edit cant delete or update just one at a time
+- change redirect from admin pages to have a time delay
+- If I put an id that does not exist in the URL of Admin pages it breaks the pages 
+- Some sort of roll back if the updaet doesnt happen to the junction table
+- Make all dropdowns access the array

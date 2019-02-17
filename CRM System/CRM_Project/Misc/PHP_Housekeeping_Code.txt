@@ -1,0 +1,13 @@
+When re-directing a user to another page the current script should be terminated immediatly after. e.g. 
+
+header('location:anotherpage.php');
+exit();
+
+Treat any value you output to html with htmlspecialchars() by default.
+
+JavaScript powered validation can be turned off in the user's browser, fail due to a scripting error, or be maliciously circumvented without much effort.
+https://stackoverflow.com/questions/1205889/how-to-prevent-code-injection-attacks-in-php?noredirect=1&lq=1
+
+To start a php session: session_start()
+To destroy a PHP session completely: session_destroy()
+
